@@ -1,0 +1,3 @@
+@Library('workflow-jenkins-pipelines@shipit') _
+
+mavenDeploy([label: 'WINDOWS'])
