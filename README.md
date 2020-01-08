@@ -20,4 +20,4 @@ To configure the pipeline step that adds the comment to a pull request, you will
 2. PyGithub has been installed on the box (required PIP)
 3. The Credentials Binding Plugin has been installed on Jenkins, and a Github Access Token has been added with the `github` id.
 
-Currently, the code that adds the comment to pull requests is hard coded into a CCL pipeline script. It will need to be extracted into its own functions that will then allow users to add the pipeline library to any Jenkinsfile and have them use the resource anywhere in their own pipelines.
+Currently, the code that adds the comment to pull requests is hard coded into a pipeline script. It will need to be extracted into its own functions that will then allow users to add the pipeline library to any Jenkinsfile and have them use the resource anywhere in their own pipelines.
